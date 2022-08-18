@@ -1,0 +1,244 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .footer-general__dis2 {
+    flex-wrap: wrap;
+  }
+  .vidio-general iframe {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .hamburger-menu {
+    display: block;
+  }
+  #header {
+    background: white;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+  }
+  #header .header__content {
+    display: block;
+  }
+  #header .header__content__left ul li {
+    display: none;
+  }
+  #header .header__content__right {
+    display: none;
+  }
+  #hero .hero__content {
+    display: block;
+  }
+  #airpods .airpods__content {
+    display: block;
+  }
+  #airpods .airpods__content__block p {
+    margin-bottom: 20px;
+  }
+  #tehnich .tehnich__content p {
+    font-size: 17px;
+  }
+  #function .footer-general__desk p {
+    font-size: 11px;
+  }
+  #vop .vop-general__flex {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #vop .vop-general__general {
+    margin: 0 0 0 182px;
+  }
+  #vop .vop-general__title {
+    margin-bottom: 23px;
+  }
+}
+@media (max-width: 576px) {
+  #hero .hero__content__right__img img {
+    transition: 0.5s ease;
+    width: 90%;
+  }
+  #tehnich .tehnich__content {
+    display: block;
+  }
+  #vop .vop-general__general {
+    margin: 0 0 0 95px;
+  }
+  .vop-general__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  #tehnich .tehnich__content p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 146px;
+  }
+  #tehnich .tehnich__content__img img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  #function .function-general {
+    display: block;
+  }
+  #function__left {
+    margin-left: 159px;
+  }
+  #header .header__content {
+    display: block;
+  }
+  #header .header__content__left ul li {
+    display: none;
+  }
+  #header .header__content__right {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  #vop .vop-general__general {
+    margin: 0 0 0 27px;
+  }
+  #hero .hero__content__right__img {
+    transition: 0.5s ease;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #function .function-general__desk {
+    margin-bottom: 50px;
+  }
+  #header .header__content {
+    display: block;
+  }
+  #header .header__content__left ul li {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  #tehnich .tehnich__content p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 93px;
+  }
+  #header .header__content {
+    display: block;
+  }
+  #header .header__content__left ul li {
+    display: none;
+  }
+  #header .header__content__right {
+    display: none;
+  }
+}
+@media (max-width: 415px) {
+  #header .header__content {
+    display: block;
+  }
+  #header .header__content__left ul li {
+    display: none;
+  }
+  #header .header__content__right {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  #vop .vop-general__input {
+    width: 270px;
+  }
+  #vop .vop-general__btn {
+    width: 286px;
+  }
+  #tehnich .tehnich__content p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 116px;
+  }
+  #tehnich .tehnich__content__img img {
+    width: 90%;
+  }
+  #function .function-general__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-left: 38px;
+  }
+  #header .header__content {
+    display: block;
+  }
+  #header .header__content__left ul li {
+    display: none;
+  }
+  #header .header__content__right {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  #tehnich .tehnich__content p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 67px;
+  }
+  #tehnich .tehnich__content__img img {
+    width: 90%;
+  }
+  #tehnich .tehnich__title {
+    margin-left: 65px;
+  }
+  #function .function-general__img {
+    padding-bottom: 20px;
+    margin-left: 62px;
+  }
+  #header .header__content {
+    display: block;
+  }
+  #header .header__content__left ul li {
+    display: none;
+  }
+  #header .header__content__right {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  #vop .vop-general__input {
+    width: 250px;
+  }
+  #vop .vop-general__btn {
+    width: 250px;
+  }
+  #tehnich .tehnich__content p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 32px;
+  }
+  #tehnich .tehnich__content__img img {
+    width: 90%;
+  }
+  #tehnich .tehnich__title {
+    margin-left: 55px;
+  }
+  #function .function-general__img {
+    padding-bottom: 20px;
+    margin-left: 32px;
+  }
+  #header .header__content {
+    display: block;
+  }
+  #header .header__content__left ul li {
+    display: none;
+  }
+  #header .header__content__right {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

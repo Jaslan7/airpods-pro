@@ -1,0 +1,630 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0);
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#header .header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header__content__left {
+  display: flex;
+  align-items: center;
+}
+#header .header__content__left__apple {
+  padding: 5px 0;
+  text-align: center;
+}
+#header .header__content__left__apple img {
+  width: 20px;
+}
+#header .header__content__left__apple h3 {
+  font-size: 15px;
+}
+#header .header__content__left ul li {
+  margin: 0 0 0 130px;
+  list-style: none;
+}
+#header .header__content__left ul li a {
+  margin: 0 20px;
+  font-weight: 400;
+  color: #000000;
+  position: relative;
+  opacity: 0.8;
+}
+#header .header__content__left ul li a:hover {
+  opacity: 1;
+}
+#header .header__content__left ul li a:before {
+  content: "";
+  left: 50%;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #000000;
+  transition: all 0.45s;
+}
+#header .header__content__left ul li a:hover:before {
+  width: 100%;
+  left: 0;
+}
+#header .header__content__right a {
+  opacity: 0.8;
+  margin: 0 0 0 5px;
+  font-weight: 400;
+  color: #000000;
+}
+#header .header__content__right a:hover {
+  opacity: 1;
+}
+
+#hero {
+  padding-top: 70px;
+  background: #000000;
+}
+#hero .hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero__content__left {
+  display: flex;
+  color: #FFFFFF;
+}
+#hero .hero__content__left__line {
+  width: 2px;
+  height: 143px;
+  background: #6A6DBC;
+}
+#hero .hero__content__left__air {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 30px;
+}
+#hero .hero__content__left__air h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+}
+#hero .hero__content__left__air p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+}
+#hero .hero__content__left__air__btn button {
+  margin: 70px 0 20px 0;
+  font-weight: 550;
+  cursor: pointer;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 13px 55px;
+  background: #F7A325;
+  border: none;
+  transition: 0.5s ease;
+  font-size: 20px;
+}
+#hero .hero__content__left__air__btn button:hover {
+  background: #ffcc78;
+  color: #000000;
+}
+#hero .hero__content__left__air__play a {
+  font-size: 20px;
+  color: #F7A325;
+}
+#hero .hero__content__left__air__play a:hover {
+  color: #FFFFFF;
+}
+#hero .hero__content__left__air__play span {
+  font-size: 15px;
+  margin-left: 5px;
+}
+#hero .hero__content__right__img {
+  position: relative;
+  overflow: hidden;
+}
+#hero .hero__content__right__img img {
+  transition: 0.5s ease;
+}
+#hero .hero__content__right__img img:hover {
+  transform: scale(1.1);
+}
+
+#airpods {
+  padding-top: 70px;
+  background: #000000;
+}
+#airpods .airpods__title h1 {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#airpods .airpods__content {
+  padding: 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#airpods .airpods__content__block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#airpods .airpods__content__block p {
+  color: #FFFFFF;
+  text-align: center;
+}
+#airpods .airpods__content__block__img1 {
+  transition: transform 0.5s ease;
+}
+#airpods .airpods__content__block__img1:hover {
+  transform: translateY(-20%);
+}
+#airpods .airpods__content__block__img1 img {
+  width: 200px;
+  height: 170px;
+  object-fit: cover;
+}
+#airpods .airpods__content__block__img2__2 {
+  transition: transform 0.5s ease;
+}
+#airpods .airpods__content__block__img2__2:hover {
+  transform: translateY(-20%);
+}
+#airpods .airpods__content__block__img2 img {
+  width: 130px;
+  object-fit: cover;
+}
+#airpods .airpods__content__block__img2 p {
+  margin-top: 40px;
+}
+#airpods .airpods__content__block__img3 {
+  transition: transform 0.5s ease;
+}
+#airpods .airpods__content__block__img3:hover {
+  transform: translateY(-20%);
+}
+#airpods .airpods__content__block__img3 img {
+  width: 120px;
+  margin-bottom: 42px;
+}
+
+#tehnich {
+  padding-top: 70px;
+  background: #000000;
+}
+#tehnich .tehnich__title h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+#tehnich .tehnich__content {
+  padding: 50px 0;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#tehnich .tehnich__content p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+#tehnich .tehnich__content__time {
+  display: flex;
+}
+#tehnich .tehnich__content__time__icon {
+  color: #F7A325;
+  font-size: 50px;
+  margin: 0 12px 0 0;
+}
+#tehnich .tehnich__content__img {
+  margin-left: 20px;
+  transition: transform 0.5s ease;
+}
+#tehnich .tehnich__content__img:hover {
+  transform: translateY(-20%);
+}
+#tehnich .tehnich__content__img img {
+  width: 250px;
+}
+
+#function {
+  background: #000000;
+}
+#function .function-general {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+#function .function-general__desk {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+#function .function-general__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#vidio {
+  background: black;
+}
+#vidio .vidio-general iframe {
+  width: 96%;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #eeeeee;
+}
+
+#model {
+  background: #000000;
+  padding-top: 115px;
+}
+#model .model-general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#model .model-general__title {
+  font-family: "Asap", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#model .model-general__block {
+  width: 350px;
+  height: 618px;
+  background: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 87px;
+}
+#model .model-general__btn {
+  width: 171.34px;
+  height: 39.19px;
+  background: #F7A325;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+#model .model-general__lin {
+  width: 122px;
+  height: 0;
+  border: 2px solid #F7A325;
+  transform: rotate(90deg);
+}
+#model .model-general__title2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+#model .model-general__dis {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+#model .model-general__display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#model .model-general__bott {
+  padding-top: 20px;
+  margin-bottom: 74px;
+}
+#model .model-general__dispp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#model .model-general__bott2 {
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+#model .model-general__bott3 {
+  margin-bottom: 45px;
+  padding-top: 37px;
+}
+
+#vop {
+  background: #000000;
+}
+#vop .vop-general {
+  padding: 30px 0;
+}
+#vop .vop-general__title {
+  font-family: "Asap", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#vop .vop-general__input {
+  width: 339px;
+  height: 55px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  background: transparent;
+  margin-bottom: 20px;
+  color: white;
+}
+#vop .vop-general__btn {
+  width: 339px;
+  height: 42px;
+  background: #F7A325;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 13px;
+  transition: 0.4s;
+}
+#vop .vop-general__btn:hover {
+  transform: scale(1.1);
+  background: white;
+  color: black;
+}
+#vop .vop-general__title2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+#vop .vop-general__flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#vop .vop-general__left__img {
+  position: relative;
+  overflow: hidden;
+}
+#vop .vop-general__left__img img {
+  transition: 0.5s ease;
+}
+#vop .vop-general__left__img img:hover {
+  transform: scale(1.1);
+}
+
+#footer {
+  background: #ffffff;
+}
+#footer .footer-general {
+  padding: 40px 0;
+}
+#footer .footer-general__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+#footer .footer-general__img {
+  margin-left: 10px;
+}
+#footer .footer-general__dis {
+  display: flex;
+  align-items: center;
+}
+#footer .footer-general__dis2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .footer-general__a {
+  font-family: "Asap", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  position: relative;
+  opacity: 0.8;
+}
+#footer .footer-general__a:hover {
+  opacity: 1;
+}
+#footer .footer-general__a:before {
+  content: "";
+  left: 50%;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #000000;
+  transition: all 0.45s;
+}
+#footer .footer-general__a:hover:before {
+  width: 100%;
+  left: 0;
+}
+#footer .footer-general__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#footer .footer-general__icon div {
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: 0.25s;
+}
+
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+.hamburger-menu {
+  display: none;
+  z-index: 99;
+  position: fixed;
+}
+
+/*# sourceMappingURL=style.css.map */
