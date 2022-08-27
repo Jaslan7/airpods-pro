@@ -55,7 +55,7 @@
     }
     .airpods__content__block{
       p{
-        margin-bottom: 20px;
+        margin-bottom: -30px;
       }
     }
   }
@@ -165,6 +165,14 @@
 }
 
 @media (max-width: 450px) {
+  #footer{
+    .footer-general__dis2 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
   #vop{
     .vop-general__general{
       margin: 0 0 0 27px;
